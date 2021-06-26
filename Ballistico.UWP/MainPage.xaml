@@ -11,8 +11,17 @@
     <Page.DataContext>
         <viewmodels:MainViewModel />
     </Page.DataContext>
-    
-    <Grid>
 
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" Style="{StaticResource HeaderTextBlockStyle}" Text="Ballistico" />
+
+        <Grid Grid.Row="1">
+            
+        </Grid>
     </Grid>
 </Page>
